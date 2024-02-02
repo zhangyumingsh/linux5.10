@@ -1,0 +1,4 @@
+linux-5.10.160-rockchip-rk356x_1.0.4_arm64.buildinfo kernel optional
+linux-dtb-legacy-rockchip-rk356x_1.0.4_arm64.deb kernel optional
+linux-headers-legacy-rockchip-rk356x_1.0.4_arm64.deb kernel optional
+linux-image-legacy-rockchip-rk356x_1.0.4_arm64.deb kernel optional

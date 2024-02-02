@@ -1,0 +1,2 @@
+rm -rf /boot/dtb-5.10.160-rockchip-rk356x; rm -rf /boot/dtb
+exit 0

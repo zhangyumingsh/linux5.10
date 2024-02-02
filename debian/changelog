@@ -1,0 +1,5 @@
+linux-5.10.160-rockchip-rk356x (1.0.4) jammy; urgency=low
+
+  * Custom built Linux kernel.
+
+ -- Orange Pi <leeboby@aliyun.com>  Thu, 01 Feb 2024 16:42:22 +0800

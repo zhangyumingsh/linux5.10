@@ -1,0 +1,2 @@
+cd /usr/src/linux-headers-5.10.160-rockchip-rk356x
+rm -rf scripts .config.old

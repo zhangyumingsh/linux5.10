@@ -1,0 +1,14 @@
+Package: linux-headers-legacy-rockchip-rk356x
+Source: linux-5.10.160-rockchip-rk356x
+Version: 1.0.4
+Architecture: arm64
+Maintainer: Orange Pi <leeboby@aliyun.com>
+Installed-Size: 78232
+Depends: make, gcc, libc6-dev, bison, flex, libssl-dev
+Section: kernel
+Priority: optional
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.10.160-rockchip-rk356x on arm64
+ This package provides kernel header files for 5.10.160-rockchip-rk356x on arm64
+ .
+ This is useful for people who need to build external modules

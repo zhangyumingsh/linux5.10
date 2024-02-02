@@ -1,0 +1,7 @@
+cd /usr/src/linux-headers-5.10.160-rockchip-rk356x
+echo "Compiling headers - please wait ..."
+find -type f -exec touch {} +
+yes "" | make oldconfig >/dev/null
+make -j$(grep -c 'processor' /proc/cpuinfo) -s scripts >/dev/null
+make -j$(grep -c 'processor' /proc/cpuinfo) -s M=scripts/mod/ >/dev/null
+exit 0
